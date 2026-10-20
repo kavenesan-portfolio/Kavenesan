@@ -3,16 +3,16 @@
 
 :root {
   color-scheme: light;
-  --purple: #6d42c1;
-  --purple-dark: #4e269b;
-  --purple-deep: #2b1947;
-  --purple-soft: #f3edff;
-  --purple-softer: #faf8ff;
-  --text: #2f293b;
-  --muted: #756d82;
+  --purple: #2563eb;
+  --purple-dark: #1d4ed8;
+  --purple-deep: #1e3a8a;
+  --purple-soft: #dbeafe;
+  --purple-softer: #d5d8dc;
+  --text: #1f2937;
+  --muted: #6b7280;
   --surface: #ffffff;
-  --surface-alt: #fbf9ff;
-  --border: #e9e2f4;
+  --surface-alt: #f8fafc;
+  --border: #dbeafe;
   --shadow: 0 18px 55px rgba(65, 37, 112, 0.09);
   --header-height: 78px;
   --radius: 22px;
@@ -327,3 +327,26 @@ h1 span, .section-heading h2 span, .contact-copy h2 span { color: var(--purple);
   *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; }
   .js-ready .reveal { opacity: 1; transform: none; }
 }
+
+/* Fix profile photo size and alignment */
+.initials-art {
+  position: relative;
+}
+
+.initials-art .profile-photo {
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  max-width: none;
+  max-height: none;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  z-index: 2;
+}
+
