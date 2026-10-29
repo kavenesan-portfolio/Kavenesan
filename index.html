@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,10 +9,12 @@
   <link rel="stylesheet" href="style.css">
   <script src="script.js" defer></script>
 </head>
+
 <body>
   <a class="skip-link" href="#main-content">Skip to content</a>
   <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
 
+  <!-- Navigation -->
   <header class="site-header" id="top">
     <nav class="navbar container" aria-label="Main navigation">
       <a class="brand" href="#home" aria-label="Kavenesan Ganapathy, home">
@@ -19,7 +22,9 @@
         <span class="brand-name">Kavenesan<span>.</span></span>
       </a>
 
-      <button class="menu-toggle" id="menuToggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="navMenu">
+      <button class="menu-toggle" id="menuToggle" type="button"
+        aria-label="Open navigation menu" aria-expanded="false"
+        aria-controls="navMenu">
         <span></span><span></span><span></span>
       </button>
 
@@ -28,7 +33,10 @@
         <a class="nav-link" href="#about">About Me</a>
         <a class="nav-link" href="#projects">Projects</a>
         <a class="nav-link" href="#contact">Contact</a>
-        <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch to dark theme" title="Toggle light and dark theme">
+
+        <button class="theme-toggle" id="themeToggle" type="button"
+          aria-label="Switch to dark theme"
+          title="Toggle light and dark theme">
           <span id="themeIcon" aria-hidden="true">☾</span>
         </button>
       </div>
@@ -36,218 +44,624 @@
   </header>
 
   <main id="main-content">
+
+    <!-- HOME -->
     <section class="hero section" id="home" aria-labelledby="heroTitle">
       <div class="container hero-grid">
+
         <div class="hero-copy reveal">
-          <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> Computer Science (Networking) Student</p>
-          <h1 id="heroTitle">Hi, I'm <span>Kavenesan<br class="desktop-break"> Ganapathy.</span></h1>
-          <p class="hero-subtitle">I’m learning, building, and exploring how technology can solve real problems.</p>
-          <p class="hero-description">I’m a Bachelor of Computer Science (Networking) student interested in web development, programming, and computer networks. This portfolio shares my learning journey and project work.</p>
+          <p class="eyebrow">
+            <span class="status-dot" aria-hidden="true"></span>
+            Computer Science (Networking) Student
+          </p>
+
+          <h1 id="heroTitle">
+            Hi, I'm <span>Kavenesan<br class="desktop-break"> Ganapathy.</span>
+          </h1>
+
+          <p class="hero-subtitle">
+            I'm learning, building, and exploring how technology can solve real problems.
+          </p>
+
+          <p class="hero-description">
+            I'm a Bachelor of Computer Science (Networking) student interested
+            in web development, programming, and computer networks.
+            This portfolio shares my learning journey and project work.
+          </p>
+
           <div class="hero-actions">
-            <a class="button button-primary" href="#projects">Explore my projects <span aria-hidden="true">↗</span></a>
+            <a class="button button-primary" href="#projects">
+              Explore my projects <span aria-hidden="true">↗</span>
+            </a>
             <a class="button button-secondary" href="#contact">Get in touch</a>
           </div>
+
           <div class="hero-links" aria-label="Contact links">
             <a href="mailto:kavenesangana@gmail.com">kavenesangana@gmail.com</a>
             <span aria-hidden="true">·</span>
-            <a href="https://www.linkedin.com/in/kavenesan-ganapathy-070936299/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+            <a href="https://www.linkedin.com/in/kavenesan-ganapathy-070936299/"
+              target="_blank" rel="noopener noreferrer">
+              LinkedIn <span aria-hidden="true">↗</span>
+            </a>
           </div>
         </div>
 
         <div class="hero-visual reveal" aria-label="Portfolio introduction card">
           <div class="visual-orb orb-one" aria-hidden="true"></div>
           <div class="visual-orb orb-two" aria-hidden="true"></div>
+
           <div class="profile-card">
             <div class="profile-card-top">
               <span class="mini-label">PERSONAL PORTFOLIO</span>
-              <span class="available-badge"><span class="status-dot" aria-hidden="true"></span> Learning every day</span>
+              <span class="available-badge">
+                <span class="status-dot" aria-hidden="true"></span>
+                Learning every day
+              </span>
             </div>
+
             <div class="initials-art">
-    <span class="initials-ring ring-one" aria-hidden="true"></span>
-    <span class="initials-ring ring-two" aria-hidden="true"></span>
+              <span class="initials-ring ring-one" aria-hidden="true"></span>
+              <span class="initials-ring ring-two" aria-hidden="true"></span>
+              <img class="profile-photo" src="profile.jpg"
+                alt="Portrait of Kavenesan Ganapathy">
+              <span class="spark spark-one" aria-hidden="true">✦</span>
+              <span class="spark spark-two" aria-hidden="true">✧</span>
+            </div>
 
-    <img
-        class="profile-photo"
-        src="profile.jpg"
-        alt="Portrait of Kavenesan Ganapathy"
-    >
-
-    <span class="spark spark-one" aria-hidden="true">✦</span>
-    <span class="spark spark-two" aria-hidden="true">✧</span>
-</div>
             <h2>Kavenesan Ganapathy</h2>
-            <p class="profile-course">Bachelor of Computer Science<br>(Networking)</p>
+            <p class="profile-course">
+              Bachelor of Computer Science<br>(Networking)
+            </p>
+
             <div class="profile-divider"></div>
+
             <div class="interest-row">
               <span class="interest-icon" aria-hidden="true">⌘</span>
-              <span><strong>Programming</strong><small>Learning by building</small></span>
+              <span>
+                <strong>Programming</strong>
+                <small>Learning by building</small>
+              </span>
             </div>
+
             <div class="interest-row">
               <span class="interest-icon" aria-hidden="true">⌁</span>
-              <span><strong>Networking</strong><small>Understanding connections</small></span>
+              <span>
+                <strong>Networking</strong>
+                <small>Understanding connections</small>
+              </span>
             </div>
+
             <div class="card-decoration" aria-hidden="true">{ }</div>
           </div>
-          <span class="floating-tag tag-top">Curious mind <span aria-hidden="true">✦</span></span>
-          <span class="floating-tag tag-bottom"><span aria-hidden="true">⌁</span> Building my skills</span>
+
+          <span class="floating-tag tag-top">
+            Curious mind <span aria-hidden="true">✦</span>
+          </span>
+          <span class="floating-tag tag-bottom">
+            <span aria-hidden="true">⌁</span> Building my skills
+          </span>
         </div>
       </div>
-      <a class="scroll-cue" href="#about"><span class="scroll-line" aria-hidden="true"></span> Scroll to explore</a>
+
+      <a class="scroll-cue" href="#about">
+        <span class="scroll-line" aria-hidden="true"></span>
+        Scroll to explore
+      </a>
     </section>
 
+    <!-- ABOUT ME -->
     <section class="section about-section" id="about" aria-labelledby="aboutTitle">
       <div class="container">
         <div class="section-heading reveal">
           <p class="eyebrow">A LITTLE ABOUT ME</p>
           <h2 id="aboutTitle">Learning today, <span>building for tomorrow.</span></h2>
-          <p class="section-intro">I believe the best way to improve is to keep learning and practise what I learn through real projects.</p>
+          <p class="section-intro">
+            I believe the best way to improve is to keep learning and practise
+            what I learn through real projects.
+          </p>
         </div>
 
         <div class="about-grid">
           <article class="about-card reveal">
             <div class="card-icon" aria-hidden="true">✦</div>
             <h3>My background</h3>
-            <p>I’m pursuing a Bachelor of Computer Science (Networking). My studies help me build a foundation in programming, networking, databases, and IT systems.</p>
-            <p>I enjoy working through problems, learning new tools, and understanding how different parts of a system work together.</p>
+            <p>
+              I'm pursuing a Bachelor of Computer Science (Networking).
+              My studies help me build a foundation in programming, networking,
+              databases, and IT systems.
+            </p>
+            <p>
+              I enjoy working through problems, learning new tools, and
+              understanding how different parts of a system work together.
+            </p>
           </article>
+
           <article class="about-card skills-card reveal">
             <div class="card-icon" aria-hidden="true">⌘</div>
             <h3>Areas I'm learning</h3>
-            <p>These are topics I’m exploring through coursework and practice. I’ll keep updating this list as I gain more experience.</p>
+            <p>
+              These are topics I'm exploring through coursework and practice.
+              I'll keep updating this list as I gain more experience.
+            </p>
             <div class="skill-tags" aria-label="Learning areas">
-              <span>HTML</span><span>CSS</span><span>JavaScript</span><span>C++</span><span>SQL</span><span>Computer Networking</span><span>System Administration</span>
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>C++</span>
+              <span>SQL</span>
+              <span>Computer Networking</span>
+              <span>System Administration</span>
             </div>
           </article>
         </div>
 
         <div class="about-note reveal">
           <span class="note-mark" aria-hidden="true">“</span>
-          <p>My goal is to turn what I learn in class into practical projects and keep improving one step at a time.</p>
+          <p>
+            My goal is to turn what I learn in class into practical projects
+            and keep improving one step at a time.
+          </p>
         </div>
       </div>
     </section>
 
-    <section class="section projects-section" id="projects" aria-labelledby="projectsTitle">
+    <!-- PROJECTS -->
+    <section class="section projects-section" id="projects"
+      aria-labelledby="projectsTitle">
       <div class="container">
+
         <div class="section-heading section-heading-row reveal">
           <div>
             <p class="eyebrow">WHAT I'VE BEEN WORKING ON</p>
             <h2 id="projectsTitle">Selected <span>projects.</span></h2>
           </div>
-          <p class="section-intro">A selection of coursework and practice projects. The draft entries must be updated with your real work before you publish the final site.</p>
+          <p class="section-intro">
+            A selection of my academic and practice projects.
+          </p>
         </div>
 
-        <div class="project-filters reveal" role="group" aria-label="Filter projects by category">
-          <button class="filter-button active" type="button" data-filter="all" aria-pressed="true">All projects</button>
-          <button class="filter-button" type="button" data-filter="programming" aria-pressed="false">Programming</button>
-          <button class="filter-button" type="button" data-filter="web" aria-pressed="false">Web</button>
-          <button class="filter-button" type="button" data-filter="database" aria-pressed="false">Database</button>
-          <button class="filter-button" type="button" data-filter="networking" aria-pressed="false">Networking</button>
+        <!-- Project filters -->
+        <div class="project-filters reveal" role="group"
+          aria-label="Filter projects by category">
+          <button class="filter-button active" type="button"
+            data-filter="all" aria-pressed="true">All projects</button>
+          <button class="filter-button" type="button"
+            data-filter="iot" aria-pressed="false">IoT &amp; Hardware</button>
+          <button class="filter-button" type="button"
+            data-filter="programming" aria-pressed="false">Programming</button>
+          <button class="filter-button" type="button"
+            data-filter="uiux" aria-pressed="false">UI/UX Design</button>
+<button class="filter-button" type="button"
+  data-filter="systems" aria-pressed="false">Community Systems</button>
         </div>
 
         <div class="projects-grid" id="projectsGrid">
-          <article class="project-card reveal" data-category="programming">
-            <div class="project-art art-seafood" aria-hidden="true"><span class="art-symbol">⌁</span><span class="art-caption">DATA STRUCTURES</span></div>
+
+          <!-- PROJECT 01: IoT Plant Monitoring System -->
+          <article class="project-card featured-project reveal"
+            data-category="iot">
+
+            <div class="project-art art-iot" aria-hidden="true">
+              <span class="art-symbol">🌱</span>
+              <span class="art-caption">SMART PLANT MONITORING</span>
+            </div>
+
             <div class="project-content">
-              <div class="project-meta"><span class="project-category">Programming</span><span class="project-number">01 / 05</span></div>
-              <h3>GoSeaFood Management System</h3>
-              <p>A C++ group project developed to manage imported seafood.
-  My main responsibility was implementing the Stack and
-  Queue module for the system.</p>
-              <div class="project-tags"><span>C++</span><span>Stack & Queue</span><span>Linked List</span></div>
-              <button class="text-button project-details" type="button" data-title="GoSeaFood Management System" data-description="A group project focused on an imported seafood management system. My part was the Stack and Queue module. Update this description with the exact functions you implemented and how they worked." data-stack="C++|Stack|Queue|Linked List|Sorting and Searching">View project details <span aria-hidden="true">↗</span></button>
+              <div class="project-meta">
+                <span class="project-category">IoT &amp; Hardware</span>
+                <span class="project-number">01 / 05</span>
+              </div>
+
+              <h3>IoT Based Plant Monitoring System</h3>
+              <p>
+                My diploma Final Year Project focused on monitoring tropical
+                plants using IoT technology. The system collects environmental
+                readings and sends them to the Blynk app. It is designed to
+                alert users when soil moisture falls below the configured
+                threshold.
+              </p>
+
+              <div class="project-tags">
+                <span>ESP32</span>
+                <span>DHT11</span>
+                <span>Blynk IoT</span>
+                <span>Arduino IDE</span>
+              </div>
+
+              <p class="sensor-prompt">
+                Click a component below to learn more:
+              </p>
+
+              <div class="sensor-details">
+                <button class="sensor-detail-button project-details"
+                  type="button"
+                  data-title="🌡️ Temperature Monitoring"
+                  data-description="The DHT11 sensor measures the surrounding air temperature. This reading helps users monitor environmental conditions around their tropical plants. The reading is made available through the project's monitoring interface."
+                  data-stack="DHT11|ESP32|Blynk IoT">
+                  🌡️ Temperature
+                </button>
+
+                <button class="sensor-detail-button project-details"
+                  type="button"
+                  data-title="💧 Humidity Monitoring"
+                  data-description="The DHT11 sensor also measures humidity in the surrounding air. Users can check this reading through the Blynk monitoring interface to understand conditions around the plants."
+                  data-stack="DHT11|ESP32|Blynk IoT">
+                  💧 Humidity
+                </button>
+
+                <button class="sensor-detail-button project-details"
+                  type="button"
+                  data-title="🌱 Soil Moisture Monitoring"
+                  data-description="A soil moisture sensor measures the water content in the soil. The project report describes an alert when the reading falls below the configured threshold of 20%, helping gardeners identify when a plant may need watering."
+                  data-stack="Soil Moisture Sensor|ESP32|Blynk IoT|Alerts">
+                  🌱 Soil Moisture
+                </button>
+
+                <button class="sensor-detail-button project-details"
+                  type="button"
+                  data-title="☀️ Light Intensity Monitoring"
+                  data-description="The LDR (light-dependent resistor) responds to changes in light levels. Its output is read by the system so users can monitor light conditions around the plants along with the other environmental readings."
+                  data-stack="LDR|ESP32|Sensor Readings">
+                  ☀️ Light Intensity
+                </button>
+
+                <button class="sensor-detail-button project-details"
+                  type="button"
+                  data-title="📱 Blynk IoT Dashboard"
+                  data-description="The Blynk IoT dashboard lets users check collected plant readings from a connected smartphone or web interface. This supports remote monitoring without relying entirely on manual plant checks."
+                  data-stack="Blynk IoT|Wi-Fi|Remote Monitoring">
+                  📱 Blynk Dashboard
+                </button>
+              </div>
+
+              <button class="text-button project-details" type="button"
+                data-title="IoT Based Plant Monitoring System"
+                data-description="This diploma Final Year Project was completed by a three-person team to help gardeners and the U3K department at Politeknik Balik Pulau monitor tropical plants. The system uses an ESP32, a DHT11 temperature and humidity sensor, a soil moisture sensor, an LDR and a 20 × 4 LCD. Sensor readings are made available through the Blynk IoT app. The report describes alerts when soil moisture falls below 20%. The report also lists Kavenesan as the tester for the login, soil moisture and LDR test cases."
+                data-stack="ESP32|DHT11|Soil Moisture Sensor|LDR|20 × 4 LCD|Arduino IDE|Blynk IoT|Proteus 8">
+                View full project details <span aria-hidden="true">↗</span>
+              </button>
             </div>
           </article>
 
-          <article class="project-card reveal" data-category="programming">
-            <div class="project-art art-group" aria-hidden="true"><span class="art-symbol">◈</span><span class="art-caption">STUDENT GROUPING</span></div>
+          <!-- PROJECT 02: Smart EV Dashboard -->
+          <article class="project-card reveal" data-category="uiux">
+
+            <div class="project-art art-portfolio" aria-hidden="true">
+              <span class="art-symbol">🚗</span>
+              <span class="art-caption">SMART EV DASHBOARD</span>
+            </div>
+
             <div class="project-content">
-              <div class="project-meta"><span class="project-category">Programming</span><span class="project-number">02 / 05</span></div>
+              <div class="project-meta">
+                <span class="project-category">UI/UX Design</span>
+                <span class="project-number">02 / 05</span>
+              </div>
 
-<h3>GroupBuddy — Student Group Finder</h3>
+              <h3>Smart EV Dashboard Prototype</h3>
+              <p>
+                A Smart EV Dashboard prototype designed to make vehicle
+                information and common controls easier to access while driving.
+                The project covers vehicle status, air-conditioning, media,
+                voice commands, connectivity and safety controls.
+              </p>
 
-<p>
-  A C++ console application I developed to help university students
-  manage their profiles and create study groups based on their
-  academic strengths, availability and project interests.
+              <div class="project-tags">
+                <span>UI/UX Design</span>
+                <span>Interactive Prototype</span>
+                <span>Usability Testing</span>
+              </div>
+
+              <p class="sensor-prompt">Click a feature to learn more:</p>
+
+              <div class="sensor-details">
+                <button class="sensor-detail-button project-details"
+                  type="button"
+                  data-title="🚗 Dashboard and Vehicle Status"
+                  data-description="The main dashboard presents vehicle information such as battery status, distance travelled, maintenance information and average speed. Usability testing found that some secondary details were difficult to locate. The report recommended improving text size and colour contrast for these details."
+                  data-stack="Dashboard Design|Vehicle Information|UI/UX">
+                  🚗 Dashboard
+                </button>
+
+                <button class="sensor-detail-button project-details"
+                  type="button"
+                  data-title="❄️ Air-Conditioning Controls"
+                  data-description="The prototype includes climate controls for adjusting temperature and fan settings. During usability testing, a tester had difficulty finding the main air-conditioning screen. The report recommended a clear A/C or Climate shortcut."
+                  data-stack="Climate Controls|Interface Design|Usability Testing">
+                  ❄️ Air-Conditioning
+                </button>
+
+                <button class="sensor-detail-button project-details"
+                  type="button"
+                  data-title="🎵 Media and Music Controls"
+                  data-description="The dashboard includes controls for common media actions. The usability findings described the music controls as intuitive and easy to understand. The design aims to keep common actions accessible without making users search through complicated menus."
+                  data-stack="Media Controls|User Interface|Usability">
+                  🎵 Media
+                </button>
+
+                <button class="sensor-detail-button project-details"
+                  type="button"
+                  data-title="🎙️ Voice Assistant"
+                  data-description="The prototype includes a voice assistant for requesting vehicle actions through spoken commands. Testing found that users had to tap a button before voice recognition started. The report recommended hands-free activation to reduce physical interaction."
+                  data-stack="Voice Interaction|Voice Assistant|User Experience">
+                  🎙️ Voice Assistant
+                </button>
+
+                <button class="sensor-detail-button project-details"
+                  type="button"
+                  data-title="🔗 Connectivity and Devices"
+                  data-description="The dashboard includes connectivity options such as Bluetooth. The usability findings suggested simplifying the button layout so users could recognise and select device options more easily."
+                  data-stack="Bluetooth|Device Connectivity|Interface Design">
+                  🔗 Connectivity
+                </button>
+
+                <button class="sensor-detail-button project-details"
+                  type="button"
+                  data-title="🛡️ Safety Controls"
+                  data-description="The safety interface includes controls for features such as lane assist, safety alerts, automatic braking and driver monitoring. The prototype also illustrates a weather alert interface. The design aims to make safety settings easier to understand and access."
+                  data-stack="Safety Settings|Driver Assistance|Alert Interface">
+                  🛡️ Safety
+                </button>
+
+                <button class="sensor-detail-button project-details"
+                  type="button"
+                  data-title="📊 Usability Testing"
+                  data-description="The project evaluated the dashboard using moderated Think-Aloud usability testing. The report tracked task success, task time, errors and participant feedback. It reported an average System Usability Scale score of 76.4, compared with the benchmark of 68. The results informed recommendations for navigation, information visibility and control layouts."
+                  data-stack="Think-Aloud Testing|Task Success|Time-on-Task|SUS">
+                  📊 Usability Testing
+                </button>
+              </div>
+
+              <button class="text-button project-details" type="button"
+                data-title="Smart EV Dashboard Prototype"
+                data-description="This project explored the design and usability of a Smart EV Dashboard. The prototype brings together vehicle status, climate controls, music, voice assistance, connectivity and safety settings. The team created low-fidelity designs and a high-fidelity prototype, then evaluated how participants used the interface. The usability report identified areas for improvement and recommended a clearer, less distracting dashboard."
+                data-stack="UI/UX Design|Low-Fidelity Design|High-Fidelity Prototype|Usability Testing|System Usability Scale">
+                View full project details <span aria-hidden="true">↗</span>
+              </button>
+
+              <p>
+                <a href="https://zamarulnurddin.github.io/Smart-EV-Dashboard-Prototype/index.html"
+                  target="_blank" rel="noopener noreferrer">
+                  Open interactive prototype ↗
+                </a>
+              </p>
+            </div>
+          </article>
+
+          <!-- PROJECT 03: GroupBuddy -->
+          <article class="project-card reveal" data-category="programming">
+
+            <div class="project-art art-group" aria-hidden="true">
+              <span class="art-symbol">◈</span>
+              <span class="art-caption">STUDENT GROUPING</span>
+            </div>
+
+            <div class="project-content">
+              <div class="project-meta">
+                <span class="project-category">Programming</span>
+                <span class="project-number">03 / 05</span>
+              </div>
+
+              <h3>GroupBuddy — Student Group Finder</h3>
+              <p>
+                GroupBuddy is a C++ program I developed to help university
+                students create profiles and form study groups based on
+                their academic strengths and availability.
+              </p>
+
+              <div class="project-tags">
+                <span>C++</span>
+                <span>Object-Oriented Programming</span>
+                <span>Arrays</span>
+              </div>
+
+              <button class="text-button project-details" type="button"
+                data-title="GroupBuddy — Student Group Finder"
+                data-description="GroupBuddy is a console-based C++ application developed to help university students find suitable groupmates. Users can add, edit, delete and view student profiles. They can also search for a student using their ID, create study groups and view group members. The system uses object-oriented programming and array-based list structures. It checks for duplicate student IDs and prevents groups from including invalid or non-existent student IDs. I developed the main implementation, while my partner reviewed the work and helped finalise the assignment."
+                data-stack="C++|Object-Oriented Programming|Classes|Arrays|Input Validation">
+                View project details <span aria-hidden="true">↗</span>
+              </button>
+            </div>
+          </article>
+
+          <!-- PROJECT 04: GoSeaFood -->
+          <article class="project-card reveal" data-category="programming">
+
+            <div class="project-art art-seafood" aria-hidden="true">
+              <span class="art-symbol">🐟</span>
+              <span class="art-caption">SEAFOOD MANAGEMENT</span>
+            </div>
+
+            <div class="project-content">
+              <div class="project-meta">
+                <span class="project-category">Programming</span>
+                <span class="project-number">04 / 05</span>
+              </div>
+
+              <h3>GoSeaFood Management System</h3>
+              <p>
+                A C++ group project developed to manage imported seafood.
+                My main responsibility was implementing the Stack and Queue
+                module for the system.
+              </p>
+
+              <div class="project-tags">
+                <span>C++</span>
+                <span>Stack</span>
+                <span>Queue</span>
+                <span>Linked List</span>
+              </div>
+
+              <button class="text-button project-details" type="button"
+                data-title="GoSeaFood Management System"
+                data-description="GoSeaFood is a C++ group project focused on managing imported seafood. My main responsibility was implementing the Stack and Queue module. This project gave me practical experience applying data structures in a management system."
+                data-stack="C++|Stack|Queue|Linked List|Data Structures">
+                View project details <span aria-hidden="true">↗</span>
+              </button>
+            </div>
+          </article>
+
+          <!-- PROJECT 05: Networking -->
+
+<!-- PROJECT 05: DirectFarm Samarahan -->
+<article class="project-card reveal" data-category="systems">
+
+  <div class="project-art art-network" aria-hidden="true">
+    <span class="art-symbol">🌾</span>
+    <span class="art-caption">DIRECTFARM SAMARAHAN</span>
+  </div>
+
+  <div class="project-content">
+
+    <div class="project-meta">
+      <span class="project-category">Community System Design</span>
+      <span class="project-number">05 / 05</span>
+    </div>
+
+    <h3>DirectFarm Samarahan</h3>
+
+    <p>
+      A case study proposing a platform that connects local farmers
+      directly with buyers. It aims to improve order records,
+      produce calculations, transport cost sharing and payment
+      transparency.
+    </p>
+
+    <div class="project-tags">
+      <span>System Design</span>
+      <span>Workflow</span>
+      <span>Payment Rules</span>
+      <span>UI/UX</span>
+    </div>
+
+    <p class="sensor-prompt">
+      Click a feature to learn more:
+    </p>
+
+    <div class="sensor-details">
+
+      <button class="sensor-detail-button project-details"
+        type="button"
+        data-title="🌾 Farmer and Buyer Matching"
+        data-description="DirectFarm Samarahan proposes a matching platform that connects local farmers directly with buyers. The goal is to reduce dependence on middlemen and make it easier to coordinate produce orders, deliveries and payments."
+        data-stack="Farmer Matching|Buyer Orders|Direct Trade">
+        🌾 Farmer Matching
+      </button>
+
+      <button class="sensor-detail-button project-details"
+        type="button"
+        data-title="📋 Order and Produce Records"
+        data-description="The case study explains that orders were often received through WhatsApp and copied manually into spreadsheets. Weighing and grading were written on paper slips. The proposed system aims to standardise these records and reduce missing information, duplicate orders and differences in recorded quantities."
+        data-stack="Order Records|Weight Records|Produce Grading">
+        📋 Order Records
+      </button>
+
+      <button class="sensor-detail-button project-details"
+        type="button"
+        data-title="⚖️ Transport Cost Sharing"
+        data-description="Transport costs are shared among farmers on the same trip. The case study proposes calculating each farmer's share according to their delivery weight. Formula: Transport Share = (Farmer Weight / Total Trip Weight) × Trip Cost."
+        data-stack="Cost Calculation|Delivery Weight|Fair Sharing">
+        ⚖️ Transport Costs
+      </button>
+
+      <button class="sensor-detail-button project-details"
+        type="button"
+        data-title="💰 Payment Calculation"
+        data-description="The case study defines standard settlement rules. Gross revenue is calculated using net weight multiplied by market price per kilogram. A platform fee of 3% of gross revenue and a packing fee of RM3 per delivery are included. The net payout formula shown in the case study subtracts transport share, packing fee and platform fee from gross revenue."
+        data-stack="Gross Revenue|Platform Fee|Packing Fee|Net Payout">
+        💰 Payment Rules
+      </button>
+
+      <button class="sensor-detail-button project-details"
+        type="button"
+        data-title="🏷️ Produce Grade Adjustment"
+        data-description="If a buyer downgrades produce because of quality differences, the case study proposes an adjusted revenue calculation using the accepted weight and the price of the new grade. This provides a standard way to record the adjustment."
+        data-stack="Produce Quality|Accepted Weight|Grade Price">
+        🏷️ Grade Adjustment
+      </button>
+
+      <button class="sensor-detail-button project-details"
+        type="button"
+        data-title="🌍 Carbon Emission Tracking"
+        data-description="The proposed system includes carbon emission tracking for sustainability reporting under UNIMAS's Community Engagement Programme. The case study gives the calculation as CO₂ in kilograms = Distance in kilometres × 0.27."
+        data-stack="Sustainability|Distance|Carbon Estimate">
+        🌍 Carbon Tracking
+      </button>
+
+      <button class="sensor-detail-button project-details"
+        type="button"
+        data-title="📶 Rural System Capability"
+        data-description="One objective in the case study is for the proposed system to work without a stable internet connection, so rural communities can use it more effectively. This is a stated system requirement, not proof that an offline application has already been built."
+        data-stack="Rural Communities|System Requirement|Accessibility">
+        📶 Rural Access
+      </button>
+
+    </div>
+
+    <button class="text-button project-details"
+      type="button"
+      data-title="DirectFarm Samarahan — Case Study"
+      data-description="DirectFarm Samarahan is a proposed community-based matching platform described in the Object-Oriented Software Development case study. It addresses problems with manual orders, paper-based weighing and grading, estimated transport costs and unclear payment deductions. The proposed system aims to connect farmers with buyers directly, standardise records and calculations, and provide clearer payment breakdowns. The case study also includes user-flow diagrams, interface prototypes, settlement formulas and a goal of supporting communities with unstable internet access."
+      data-stack="Object-Oriented Software Development|System Analysis|Workflow Design|Interface Prototyping|Calculation Rules">
+      View full case study <span aria-hidden="true">↗</span>
+    </button>
+
+  </div>
+</article>
+
+
+        </div>
+
+        <p class="project-count" id="projectCount" aria-live="polite">
+          Showing 5 projects
+        </p>
+
+
+<p class="draft-reminder">
+  <span aria-hidden="true">✦</span>
+  These projects showcase my learning and practical work in IoT,
+  programming, UI/UX design, and community-focused system analysis.
+  Each project has helped me build my technical skills and understand
+  how technology can solve real-world problems.
 </p>
 
-<div class="project-tags">
-  <span>C++</span>
-  <span>Object-Oriented Programming</span>
-  <span>Arrays</span>
-</div>
-
-
-<button
-  class="text-button project-details"
-  type="button"
-  data-title="GroupBuddy — Student Group Finder"
-  data-description="GroupBuddy is a console-based C++ application developed for the Data Structures and Algorithms course. I developed the main implementation of the system. It allows users to add, edit, delete and view student profiles, search for students by ID, create study groups and view their members. The system uses Student, Group and SystemManager classes with array-based list structures. It also checks for duplicate student IDs and invalid group member IDs. My partner reviewed the work and helped finalise the assignment. Through this project, I gained experience using classes and arrays, managing student records and organising program functions."
-  data-stack="C++|Object-Oriented Programming|Classes|Arrays|Input Validation"
->
-  View project details <span aria-hidden="true">↗</span>
-</button>
-
-
-            </div>
-          </article>
-
-          <article class="project-card reveal" data-category="web">
-            <div class="project-art art-portfolio" aria-hidden="true"><span class="art-symbol">{ }</span><span class="art-caption">PERSONAL WEBSITE</span></div>
-            <div class="project-content">
-              <div class="project-meta"><span class="project-category">Web</span><span class="project-number">03 / 05</span></div>
-              <h3>Personal Portfolio Website</h3>
-              <p>A responsive website to present my background, coursework, technical interests and contact details.</p>
-              <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
-              <button class="text-button project-details" type="button" data-title="Personal Portfolio Website" data-description="This portfolio is being built for TMN3223 using plain HTML, CSS and JavaScript. After completing it, add what you learned and the features you implemented." data-stack="HTML|CSS|JavaScript|Responsive Design|Accessibility">View project details <span aria-hidden="true">↗</span></button>
-            </div>
-          </article>
-
-          <article class="project-card draft-project reveal" data-category="database">
-            <div class="project-art art-database" aria-hidden="true"><span class="art-symbol">▤</span><span class="art-caption">DATABASE WORK</span></div>
-            <div class="project-content">
-              <div class="project-meta"><span class="project-category">Database</span><span class="draft-label">Draft entry</span></div>
-              <h3>Database Design Project</h3>
-              <p><strong>Personalise this card:</strong> add the name of a database assignment you completed, its purpose, and the parts you worked on.</p>
-              <div class="project-tags"><span>SQL</span><span>Database Design</span></div>
-              <button class="text-button project-details" type="button" data-title="Database Design Project — draft" data-description="This is a placeholder only. Replace it with the name of a database project you actually completed, the problem it solved, your contribution and the database tools or concepts you used." data-stack="Replace with your actual technologies">Edit this project later <span aria-hidden="true">↗</span></button>
-            </div>
-          </article>
-
-          <article class="project-card draft-project reveal" data-category="networking">
-            <div class="project-art art-network" aria-hidden="true"><span class="art-symbol">⌘</span><span class="art-caption">NETWORK SYSTEMS</span></div>
-            <div class="project-content">
-              <div class="project-meta"><span class="project-category">Networking</span><span class="draft-label">Draft entry</span></div>
-              <h3>Networking or System Administration Lab</h3>
-              <p><strong>Personalise this card:</strong> describe a real lab or assignment, the setup or task, and what you learned from it.</p>
-              <div class="project-tags"><span>Networking</span><span>IT Systems</span></div>
-              <button class="text-button project-details" type="button" data-title="Networking or System Administration Lab — draft" data-description="This is a placeholder only. Replace it with a real networking or system administration task you completed. Mention the tools used, the steps you handled, and the result." data-stack="Replace with your actual tools and technologies">Edit this project later <span aria-hidden="true">↗</span></button>
-            </div>
-          </article>
-        </div>
-        <p class="project-count" id="projectCount" aria-live="polite">Showing 5 projects</p>
-        <p class="draft-reminder"><span aria-hidden="true">✦</span> Before submitting, replace both draft entries with real projects and check every project description is accurate.</p>
       </div>
     </section>
 
+    <!-- CONTACT -->
     <section class="section contact-section" id="contact" aria-labelledby="contactTitle">
       <div class="container contact-grid">
+
         <div class="contact-copy reveal">
           <p class="eyebrow">LET'S CONNECT</p>
           <h2 id="contactTitle">Have a question or an <span>opportunity?</span></h2>
-          <p>I’m open to connecting with people in tech, learning from others, and discussing projects or future opportunities.</p>
+          <p>
+            I'm open to connecting with people in tech, learning from others,
+            and discussing projects or future opportunities.
+          </p>
+
           <div class="contact-details">
             <div class="contact-detail">
               <span class="contact-icon" aria-hidden="true">✉</span>
-              <div><small>Email me at</small><a href="mailto:kavenesangana@gmail.com">kavenesangana@gmail.com</a></div>
-              <button class="copy-button" id="copyEmail" type="button" aria-label="Copy email address" title="Copy email address">▢</button>
+              <div>
+                <small>Email me at</small>
+                <a href="mailto:kavenesangana@gmail.com">kavenesangana@gmail.com</a>
+              </div>
+              <button class="copy-button" id="copyEmail" type="button"
+                aria-label="Copy email address" title="Copy email address">▢</button>
             </div>
+
             <div class="contact-detail">
               <span class="contact-icon" aria-hidden="true">in</span>
-              <div><small>Connect on</small><a href="https://www.linkedin.com/in/kavenesan-ganapathy-070936299/" target="_blank" rel="noopener noreferrer">LinkedIn profile ↗</a></div>
+              <div>
+                <small>Connect on</small>
+                <a href="https://www.linkedin.com/in/kavenesan-ganapathy-070936299/"
+                  target="_blank" rel="noopener noreferrer">
+                  LinkedIn profile ↗
+                </a>
+              </div>
             </div>
           </div>
+
           <p class="copy-status" id="copyStatus" aria-live="polite"></p>
         </div>
 
@@ -255,30 +669,45 @@
           <div class="form-heading">
             <span class="form-kicker">SEND A MESSAGE</span>
             <h3>Let's talk.</h3>
-            <p>This demo form opens your email app. It does not send or store information by itself.</p>
+            <p>
+              This demo form opens your email app. It does not send or store
+              information by itself.
+            </p>
           </div>
+
           <div class="form-field">
             <label for="contactName">Your name</label>
-            <input id="contactName" name="name" type="text" autocomplete="name" placeholder="Enter your name" required minlength="2">
+            <input id="contactName" name="name" type="text"
+              autocomplete="name" placeholder="Enter your name"
+              required minlength="2">
             <small class="field-error" id="nameError"></small>
           </div>
+
           <div class="form-field">
             <label for="contactEmail">Your email</label>
-            <input id="contactEmail" name="email" type="email" autocomplete="email" placeholder="name@example.com" required>
+            <input id="contactEmail" name="email" type="email"
+              autocomplete="email" placeholder="name@example.com" required>
             <small class="field-error" id="emailError"></small>
           </div>
+
           <div class="form-field">
             <label for="contactMessage">Message</label>
-            <textarea id="contactMessage" name="message" rows="4" placeholder="What would you like to talk about?" required minlength="10"></textarea>
+            <textarea id="contactMessage" name="message" rows="4"
+              placeholder="What would you like to talk about?"
+              required minlength="10"></textarea>
             <small class="field-error" id="messageError"></small>
           </div>
-          <button class="button button-primary form-submit" type="submit">Prepare email <span aria-hidden="true">↗</span></button>
+
+          <button class="button button-primary form-submit" type="submit">
+            Prepare email <span aria-hidden="true">↗</span>
+          </button>
           <p class="form-status" id="formStatus" aria-live="polite"></p>
         </form>
       </div>
     </section>
   </main>
 
+  <!-- FOOTER -->
   <footer class="site-footer">
     <div class="container footer-content">
       <a class="brand footer-brand" href="#home" aria-label="Back to top">
@@ -290,17 +719,24 @@
     </div>
   </footer>
 
-  <button class="back-to-top" id="backToTop" type="button" aria-label="Back to top" title="Back to top">↑</button>
+  <button class="back-to-top" id="backToTop" type="button"
+    aria-label="Back to top" title="Back to top">↑</button>
 
-  <dialog class="project-dialog" id="projectDialog" aria-labelledby="dialogTitle">
+  <!-- Project details popup -->
+  <dialog class="project-dialog" id="projectDialog"
+    aria-labelledby="dialogTitle">
     <div class="dialog-topline">
       <span class="eyebrow">PROJECT DETAILS</span>
-      <button class="dialog-close" id="dialogClose" type="button" aria-label="Close project details">×</button>
+      <button class="dialog-close" id="dialogClose" type="button"
+        aria-label="Close project details">×</button>
     </div>
+
     <h2 id="dialogTitle">Project title</h2>
     <p id="dialogDescription"></p>
     <div class="dialog-stack" id="dialogStack" aria-label="Technologies used"></div>
-    <p class="dialog-note">Remember to keep project details accurate and describe your own contribution.</p>
+    <p class="dialog-note">
+      Remember to keep project details accurate and describe your own contribution.
+    </p>
   </dialog>
 </body>
 </html>
